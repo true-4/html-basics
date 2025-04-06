@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(194 196 228);
+    text-align: center;
+}
+h1, h2 {
+    background-image: radial-gradient(circle at 0 -10%, #1e1e1e 40%, #9a33ff 50%, #4f10ff 100%);
+    text-align: center;
+    color: transparent;
+    background-clip: text;
+}
+.main {
+    background-color: #eddaff;
+    border-radius: 15px;
+    padding: 30px 0px;
+}
+.size {
+    border-radius: 15px;
+    width: 700px;
+}
+.vid {
+    padding-bottom: 30px;
+}
