@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="form">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="us-name">Name: </label>
+            <input type="text" id="us-name"><br><br>
+            <label for="us-email">Email: </label>
+            <input type="text" id="us-email"><br><br>
+            <label for="us-age">Age: </label>
+            <input type="text" id="us-age"><br><br>
+            <label for="us-gender">Gender: </label>
+            <select name="gender" id="us-gender">
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+            </select><br><br>
+            <label for="myBrowser">Choose a browser: </label>
+            <input list="browsers" id="myBrowser" name="myBrowser">
+            <datalist id="browsers">
+                <option value="Chrome"></option>
+                <option value="Firefox"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
+                <option value="Microsoft Edge"></option>
+            </datalist><br><br>
+            <label for="us-hobb">Hobbies: </label>
+            <input type="text" id="us-hobb"><br><br>
+            <label for="us-bio">Bio: </label>
+            <textarea name="bio" id="us-bio"></textarea><br><br>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
