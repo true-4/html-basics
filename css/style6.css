@@ -1,0 +1,12 @@
+.logo {
+    display: inline-block;
+}
+
+figure {
+    display: inline;
+    margin: 0;
+}
+
+#contact {
+    display: inline;
+}
